@@ -1,0 +1,43 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    background-image: url("background.jpeg");
+    background-position: center;
+    flex-grow: 3;
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.logo-container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.logo {
+    background-color: #11111150;
+    font-size: 30px;
+}
+
+.footer {
+    font-size: 12px;
+}
+
+.right {
+    flex-grow: 7;
+    background-color: #ede6db;
+}
