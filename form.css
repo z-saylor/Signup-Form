@@ -1,3 +1,7 @@
+:root {
+    --blue: #1470b1;
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -30,12 +34,12 @@ body {
 }
 
 .logo {
-    background-color: #11111150;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #logo {
     margin: 25px 0px;
+    text-shadow: 4px 4px 12px #9d9d9d;
 }
 
 .footer {
@@ -59,10 +63,10 @@ body {
 }
 
 h3 {
-    color: #104b8b;
+    color: var(--blue);
 }
 
-p {
+.right p {
     font-weight: 300;
     color: #555;
 }
@@ -72,6 +76,10 @@ form {
     flex: 2;
     display: flex;
     flex-direction: column;
+}
+
+h4 {
+    color: #3c3c3c;
 }
 
 .form-inputs {
@@ -106,11 +114,16 @@ label {
     color: #5a5a5a;
 }
 
-input {
+input, input:invalid:required {
     height: 25px;
     width: 250px;
     border: solid 1px #e0e0e0;
     border-radius: 5px;
+    padding-left: 8px;
+}
+
+input:invalid {
+    border: solid 2px red;
 }
 
 .form-bottom {
@@ -119,10 +132,10 @@ input {
 }
 
 button {
-    background-color: #104b8b;
+    background-color: var(--blue);
     color: #eaeaea;
     border: none;
-    padding: 8px 45px;
+    padding: 12px 45px;
     border-radius: 5px;
     font-size: 16px;
     box-shadow: 4px 4px 6px #ccc;

@@ -23,7 +23,7 @@
         </div>
         <div class="right">
             <div class="intro-text">
-                <h3>THING is life. Sign up for THING.</h3>
+                <h3>THING is good. Sign up for THING.</h3>
                 <p>It will be the single greatest decision of your life. Maybe the greatest of your life as well as the lives of everyone in close proximity to you. Say, within 500 ft or so if you aren't in a particularly densely populated area. Let's call it the greatest decision of your life and the lives of the 30 nearest people to you.... Yeah, that feels right.</p>
             </div>
             <form action="example.com/path" method="post">
@@ -33,33 +33,33 @@
                     <div class="form-row">
                         <div class="input-group">
                             <label for="first_name">FIRST </label>
-                            <input type="text" id="first_name">
+                            <input type="text" id="first_name" required>
                         </div>
                         <div class="input-group">
                             <label for="last_name">LAST</label>
-                            <input type="text" id="last_name">
+                            <input type="text" id="last_name" required>
                         </div>
                     </div>
 
                     <div class="form-row">
                         <div class="input-group">
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email">
+                            <input type="email" id="email" required>
                         </div>
                         <div class="input-group">
                             <label for="phone">PHONE NUMBER</label>
-                            <input type="text" id="phone">
+                            <input type="text" id="phone" minlength="10" maxlength="10" required>
                         </div>
                     </div>
 
                     <div class="form-row">
                         <div class="input-group">
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password">
+                            <input type="password" id="password" required minlength="8">
                         </div>
                         <div class="input-group">
                             <label for="confirm_pass">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm_pass">
+                            <input type="password" id="confirm_pass" required>
                         </div>
                     </div>
                 </div>
