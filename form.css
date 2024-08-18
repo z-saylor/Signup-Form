@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: 'Montserrat';
 }
 
 .form-page {
@@ -13,7 +14,7 @@ body {
     background-image: url("background.jpeg");
     background-position: center;
     flex-grow: 3;
-    max-width: 40vw;
+    max-width: 35vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,7 +23,7 @@ body {
 }
 
 .logo-container {
-    height: 50vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -33,11 +34,101 @@ body {
     font-size: 30px;
 }
 
+#logo {
+    margin: 25px 0px;
+}
+
 .footer {
     font-size: 12px;
 }
 
 .right {
     flex-grow: 7;
-    background-color: #ede6db;
+    background-color: #fffcf8;
+    display: flex;
+    flex-direction: column;
+    max-width: 65vw;
+}
+
+.intro-text {
+    padding: 30px 45px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+h3 {
+    color: #104b8b;
+}
+
+p {
+    font-weight: 300;
+    color: #555;
+}
+
+
+form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-inputs {
+    background-color: #fffefc;
+    box-shadow: 0px 2px 6px #ccc;
+    padding: 30px 45px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-inputs h4 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-row {
+    display: flex;
+    gap: 50px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #5a5a5a;
+}
+
+input {
+    height: 25px;
+    width: 250px;
+    border: solid 1px #e0e0e0;
+    border-radius: 5px;
+}
+
+.form-bottom {
+    flex: 1;
+    padding: 30px 45px;
+}
+
+button {
+    background-color: #104b8b;
+    color: #eaeaea;
+    border: none;
+    padding: 8px 45px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 4px 4px 6px #ccc;
+}
+
+button:hover {
+    background-color: #09335f;
+    box-shadow: 6px 6px 10px #ccc;
 }
