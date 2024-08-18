@@ -1,5 +1,5 @@
 :root {
-    --blue: #1470b1;
+    --blue: #207bbb;
 }
 
 body {
@@ -56,7 +56,7 @@ body {
 
 .intro-text {
     padding: 30px 45px;
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -64,6 +64,7 @@ body {
 
 h3 {
     color: var(--blue);
+    font-size: 24px;
 }
 
 .right p {
@@ -73,7 +74,7 @@ h3 {
 
 
 form {
-    flex: 2;
+    flex: 5;
     display: flex;
     flex-direction: column;
 }
